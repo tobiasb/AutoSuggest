@@ -6,7 +6,7 @@ There are two ways to get the underlying dictionary populated.
 
 ## Load dictionary from file
 
-The dictionary file should contain one word per file. Users on *nix can use `cat /usr/share/dict/words > words.txt` for most english words.
+The dictionary file should contain one word per file. Users on *nix can use `cat /usr/share/dict/words > words.txt` for most english words. This file is also included in the sample project.
 
 ```
 ISuggestWords suggester = SuggesterBuilder.Build("path to dictionary");
